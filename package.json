@@ -1,23 +1,27 @@
 {
-  "name": "gali",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/woshixixi/gali.git"
-  },
-  "author": "czhang",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/woshixixi/gali/issues"
-  },
-  "homepage": "https://github.com/woshixixi/gali#readme",
-  "dependencies": {
-    "axios": "^0.20.0",
-    "node-cron": "^2.0.3"
-  }
+    "name": "gali",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha ./test/talk.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/woshixixi/gali.git"
+    },
+    "author": "czhang",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/woshixixi/gali/issues"
+    },
+    "homepage": "https://github.com/woshixixi/gali#readme",
+    "dependencies": {
+        "axios": "^0.20.0",
+        "node-cron": "^2.0.3"
+    },
+    "devDependencies": {
+        "mocha": "^8.1.3",
+        "should": "^13.2.3"
+    }
 }
