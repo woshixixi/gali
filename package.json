@@ -1,0 +1,23 @@
+{
+  "name": "gali",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woshixixi/gali.git"
+  },
+  "author": "czhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/woshixixi/gali/issues"
+  },
+  "homepage": "https://github.com/woshixixi/gali#readme",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "node-cron": "^2.0.3"
+  }
+}
