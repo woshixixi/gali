@@ -2,4 +2,4 @@
 
 gali add deploy
 
-![gali](https://github.com/actions/hello-world/workflows/Greet%20Everyone/badge.svg)
+![gali](https://github.com/woshixixi/gali/workflows/push/badge.svg)
